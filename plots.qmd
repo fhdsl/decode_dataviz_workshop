@@ -1,0 +1,11 @@
+# Activity Instructions
+
+Add instructions here
+
+# List of plot types
+
+Add list of plot types to choose from here
+
+# link
+
+Link to the google doc or slide deck where information should be added here
