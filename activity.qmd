@@ -1,0 +1,11 @@
+# Data
+
+Link to data (or explain how to get it)
+
+# Description of data
+
+Provide a brief description of the data
+
+# Activity description
+
+What are we going to do in this activity
