@@ -1,36 +1,31 @@
 ---
-title: "**Website Name**"
+title: "**DeCoDE Institute Summer 2026: Data Visualization Essentials**"
 output:
   html_document
 ---
 
-<div class = "banner_color">
-Banner text!  
-</div>
-
 ### **About**
 
-This website was created with the [OTTR_Quarto website template](https://github.com/ottrproject/OTTR_Quarto). 
+This workshop introduces key considerations for creating effective data visualizations, including how to choose appropriate plots and communicate insights clearly. Participants will learn core design principles, accessibility practices, and strategies to avoid misleading or distorted visuals. Through examples attendees will develop skills to evaluate and create clear, informative, and publication-ready figures.
 
-This enables simpler creation of websites that have automated checks for broken URLs and spelling errors, as well as automated rendering of all html files. No need to worry about git conflicts for html files! See [ottrproject.org](https://www.ottrproject.org/) for more docs and details. 
+We will
 
-Here is how you can include images in your website pages (this one is saved in `resources/images` to keep things tidy:
+* Discuss Background and Fundamentals
+  * What is Data Visualization?
+  * Why is Data Visualization important?
+  * What are common uses for Data Visualization?
+  * Types of data and research questions
+* Discuss and Explore Plot types
+  * Building blocks
+  * Visual design principles
+  * Exploring Common plot types
+    *  Basic and Field Specific
+    *  When is a specific plot type the most appropriate to use?
+* Discuss Ethical and Accessible Data Visualization
+  * What are best practices?
+  * Suggesting changes or improvements
+* Discussion: common challenges
+* Activity: Building an expository graph 
 
-```{r, fig.align='center', fig.alt= "Example image", echo = FALSE, out.width="30%"}
-knitr::include_graphics("resources/images/example_image.png")
-```
-
- 
- 
-We will go through the following:
-
-1. How to set up your repository to enable the GitHub actions of the template. (Setup tab)
-2. How to host your website using GitHub (Hosting tab)
-3. How to modify your website structure (Structure tab)
-4. How to change your website style (Style tab)
-5. More information about GitHub Actions (Git Actions tab)
-
-Click on each tab to learn more.
-
-
+[Access to Slides for Workshop](https://docs.google.com/presentation/d/1wSy8jDOnuETR5Y9jbK6m5eNbQsxSWnyYio-wPs-m3YE/edit?usp=sharing)
 
