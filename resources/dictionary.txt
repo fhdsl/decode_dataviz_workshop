@@ -4,6 +4,7 @@ cheatsheet
 css
 custimization
 cwrigh
+DeCoDE
 Dockerfile
 Dockerhub
 favicon
