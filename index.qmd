@@ -8,24 +8,29 @@ output:
 
 This workshop introduces key considerations for creating effective data visualizations, including how to choose appropriate plots and communicate insights clearly. Participants will learn core design principles, accessibility practices, and strategies to avoid misleading or distorted visuals. Through examples attendees will develop skills to evaluate and create clear, informative, and publication-ready figures.
 
+#### **Outline** 
+
 We will
 
 * Discuss Background and Fundamentals
   * What is Data Visualization?
-  * Why is Data Visualization important?
-  * What are common uses for Data Visualization?
-  * Types of data and research questions
+  * Why is Data Visualization Important?
+  * What are Common Uses for Data Visualization?
+  * Types of Data and Research Questions
 * Discuss and Explore Plot types
-  * Building blocks
-  * Visual design principles
-  * Exploring Common plot types
-    *  Basic and Field Specific
+  * Building Blocks for Data Visualization
+  * Useufl Visual Design Principles
+  * Exploring Common Plot Types
+    *  Basic and field specific
     *  When is a specific plot type the most appropriate to use?
+    *  Description and example(s)
 * Discuss Ethical and Accessible Data Visualization
-  * What are best practices?
-  * Suggesting changes or improvements
-* Discussion: common challenges
-* Activity: Building an expository graph 
+  * Best Practices
+  * Improving Visualizations
+* Discuss Common Challenges
+* Build an Expository Graph (activity)
+
+### **Slides**
 
 [Access to Slides for Workshop](https://docs.google.com/presentation/d/1wSy8jDOnuETR5Y9jbK6m5eNbQsxSWnyYio-wPs-m3YE/edit?usp=sharing)
 
