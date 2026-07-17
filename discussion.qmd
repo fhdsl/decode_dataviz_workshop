@@ -14,5 +14,6 @@ Interact with Slido
 * How to add annotations?
   * Programmatic vs manual? 
   * Loss of reproducibility vs efficiency?
+* Can I use arrows or boxes, etc. to highlight specific parts of a data visualization or do I need to let the data speak for itself?
 
 
