@@ -1,11 +1,63 @@
-# Activity Instructions
+# **Instructions**
 
-1. [Join a group](https://docs.google.com/document/d/18ORHi60XOJoXgmm__iU8v9qLyeDKLxgWaARCI-3r2LY/edit?tab=t.0). Makes groups of 2-3 people.  
-2. [Pick a plot from this list (also listed below)](https://docs.google.com/document/d/1MbvXteORzWHWc4TI-YeGSmbe9qSP8J5G5Sy0uB0dfBo/edit?tab=t.0). Note there is a mixture of common plot types (Violin plot, boxplot, stacked bar chart, Heatmap) and field specific plots (e.g., Caterpillar plot, Waterfall plot, Quilt plot) listed.
+1. **[Join a group](https://docs.google.com/document/d/18ORHi60XOJoXgmm__iU8v9qLyeDKLxgWaARCI-3r2LY/edit?tab=t.0)**. Makes groups of 2-3 people and join a breakout room.  
+2. **[Pick at least one plot from this list (also listed below)](https://docs.google.com/document/d/1MbvXteORzWHWc4TI-YeGSmbe9qSP8J5G5Sy0uB0dfBo/edit?tab=t.0)**. Note there is a mixture of common plot types (Violin plot, boxplot, stacked bar chart, Heatmap) and field specific plots (e.g., Caterpillar plot, Waterfall plot, Quilt plot) listed.
 3. Research the plot type – answering specific questions listed on the template slide
 
 ```{r echo = FALSE, out.width = "100%", fig.align = 'center', fig.alt = "A template slide showing the questions groups should explore for their chosen plot type. Questions include what is the plot used for, what kind of data is needed, what geometric marks or visual channels are being used, finding an example of that plot in the literature and interpeting it. A few questions such as how to make the plot, strengths and weaknesses of the plot as well as alternatives or related plot types are included if time allows.", fig.link = "https://docs.google.com/presentation/d/1B1LfZNsYfcaxridjDgsvhImJguXOe0otaVVcqVlcMiY/edit?slide=id.g3f43c8b46df_0_0#slide=id.g3f43c8b46df_0_0"}
 ottrpal::include_slide("https://docs.google.com/presentation/d/1wSy8jDOnuETR5Y9jbK6m5eNbQsxSWnyYio-wPs-m3YE/edit?slide=id.g3f3247a3397_1_3660#slide=id.g3f3247a3397_1_3660")
 ```
 
-4. [Duplicate the template slide & add answers to this slide deck](https://docs.google.com/presentation/d/1B1LfZNsYfcaxridjDgsvhImJguXOe0otaVVcqVlcMiY/edit?slide=id.g3f43c8b46df_0_0#slide=id.g3f43c8b46df_0_0)
+4. [Add answers to this slide deck](https://docs.google.com/presentation/d/1B1LfZNsYfcaxridjDgsvhImJguXOe0otaVVcqVlcMiY/edit?slide=id.g3f43c8b46df_0_0#slide=id.g3f43c8b46df_0_0)
+
+  * Navigate to your group's slide and edit that slide
+  * Add additional slides as needed
+
+
+## **Plot types to choose from**
+
+1. Violin plot
+1. Boxplot
+1. Ridgeline plot
+1. Raincloud plot
+1. Stacked bar chart
+1. Grouped bar chart
+1. Lollipop Chart
+1. Dumbbell plot
+1. Strip plot
+1. Swarm plot
+1. Heatmap
+1. Parallel plot
+1. Quilt Plot
+1. Bubble Plot
+1. Confusion Matrix
+1. ROC curve
+1. Precision - Recall curve
+1. Venn Diagram
+1. Upset Plot
+1. Sankey Diagram
+1. Waterfall plot
+1. Forest plot
+1. Caterpillar plot
+1. Kaplan-Meier Curve
+1. Cumulative incidence curve
+1. Volcano Plot
+1. Manhattan Plot
+1. Rainfall Plot
+1. Dot plot
+1. QQ plot
+1. Repeated Measures Plot
+1. Spider Plot
+1. Spaghetti Plot
+1. Swimmer Plot
+1. Enrichment Plot
+1. MA Diagram
+1. Dimensionality Reduction plots (e.g., PCA, t-SNE, or UMAP)
+1. Circos Plot
+1. Biomedical Knowledge Graph
+1. Sequence Logo Plot
+1. Footprint Plot
+1. Tornado Diagram
+1. Tree Diagram and Dendrogram
+1. Treemap
+
