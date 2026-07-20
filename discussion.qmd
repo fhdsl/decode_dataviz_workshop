@@ -1,0 +1,24 @@
+---
+title: "**Common Challenges for Data Visualization Discussion**"
+output:
+  html_document
+---
+
+## Discussion prompt
+
+> What are some challenges you face when either planning or building data visualizations for your work?
+
+Interact with Slido
+
+## Some examples of potential challenges
+
+* Deciding which plot works with my data for my needs
+* Deciding which languages, platforms, tools, packages, or libraries to use to develop visualizations
+* When working with a tool ...
+  * What format does the data need to be in to work with that package or library?
+  * What if there’s a tool for making a complex plot, but I need to change an aesthetic?
+* How to add annotations?
+  * Programmatic vs manual?
+  * Loss of reproducibility vs efficiency?
+* Can I use arrows or boxes, etc. to highlight specific parts of a data visualization or do I need to let the data speak for itself?
+* How to make visualizations less complex

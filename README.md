@@ -1,11 +1,11 @@
-# OTTR for Websites -- Quarto version!
+# DeCoDE Institute: Data Visualization Essentials
 
-Get started by going to [ottrproject.org](https://www.ottrproject.org/getting_started.html)!
+Led by: Kate Isaac, Fred Hutch Cancer Center
 
-This is a template for creating websites from  qmd files hosted on GitHub with three helpful automations following a pull request to the repository: spelling check, broken link check, and website rendering.
+This is a workshop that will cover some background and fundamentals regarding data visualization principles and the need for data visualization within the scientific research field. Specific plot types commonly used within data science and bioinformatic research will be explored. Best practices for ethical and accessible data visualization will be introduced and common challenges for effective data visualization will be discussed. Finally, an activity will be used to interactively build a data visualization.
 
-- Check for spelling errors more intensively than RStudio and allow you to add words to the dictionary
-- Check for broken links - you will be warned about broken links
-- Automatic rendering of the website for previewing before merges
-- Automatic rendering of the website upon merging to main
-- Docker images that can be customized.
+This repository builds a companion website that will be used throughout the workshop to link participants to slides and other resources.
+
+[Website](https://hutchdatascience.org/decode_dataviz_workshop/)
+
+[Slides](https://docs.google.com/presentation/d/1wSy8jDOnuETR5Y9jbK6m5eNbQsxSWnyYio-wPs-m3YE/edit?usp=sharing)

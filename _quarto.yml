@@ -3,27 +3,25 @@ project:
   output-dir: docs
   
 website:
-  title: "OTTR Template Website"
+  title: "Data Visualization Essentials"
   navbar:
     left:
     - text: ""
       href: index.qmd
       icon: fa-home
-    - text: 1. Setup
-      href: setup.qmd
-    - text: 2. Hosting
-      href: hosting.qmd
-    - text: Editing
-      href: editing.qmd
-    - text: 3. Style
-      href: style.qmd
-    - text: 4. Git Actions
-      href: git_actions.qmd
-    - text: More ottr docs
-      href: https://www.ottrproject.org/
+    - text: Slides and Resources
+      href: background.qmd
+    - text: Exploring Plot Types
+      href: plots.qmd
+    - text: Discussing Common Challenges
+      href: discussion.qmd
+    - text: Activity
+      href: activity.qmd
+    
 
 format:
   html:
     theme: cosmo
     css: styles.css
     toc: true
+    toc-location: left
