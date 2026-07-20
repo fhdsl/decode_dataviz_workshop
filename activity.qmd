@@ -1,10 +1,20 @@
-# Data
+---
+title: "**Building an Expository Graph Activity**"
+output:
+  html_document
+---
 
-## Wrangled Data for R
+## Pre-requisites and needs
+
+Participants will want to have **downloaded the data** and have **access to R and RStudio** (or an equivalent integrated development environment for R).
+
+## Data
+
+### Wrangled Data for R
 
 The wrangled data can be downloaded from here: [https://github.com/fhdsl/decode_dataviz_workshop/blob/main/resources/activity_data/candy_wrangled_data_forR.csv](https://github.com/fhdsl/decode_dataviz_workshop/blob/main/resources/activity_data/candy_wrangled_data_forR.csv)
 
-### Loading into R
+#### Loading into R
 
 Example of how to load into R (assuming the file is in your `Downloads` folder):
 
@@ -12,7 +22,7 @@ Example of how to load into R (assuming the file is in your `Downloads` folder):
 candy_data <- read.csv("~/Downloads/candy_wrangled_data_forR.csv")
 ```
 
-### Verifying the data
+#### Verifying the data
 
 ```{r, eval = FALSE}
 colnames(candy_data)
@@ -28,11 +38,11 @@ dim(candy_data)
 
 This shows that the data has 76 rows (76 different candies) and 6 columns.
 
-## Full Dataset (not wrangled)
+### Full Dataset (not wrangled)
 
 The full dataset is available here: [https://www.scq.ubc.ca/so-much-candy-data-seriously/](https://www.scq.ubc.ca/so-much-candy-data-seriously/) and can be [downloaded as a csv file](https://www.scq.ubc.ca/wp-content/uploads/2017/10/candyhierarchy2017.csv).
 
-# Description of data
+## Description of data
 
 This data is from a 2017 survey for likely trick or treaters. Participants were asked demographic questions such as their gender, their age, and their place of residence. In addition, they were provided a list of different candy types and asked how they feel when they receive each of those candies.
 
@@ -59,6 +69,6 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1wSy8jDOnuETR5Y9j
 
 The wrangled datasets doesn't include the gender, age, or residence information. You would have to use the larger source data to look at any of those variables.
 
-# Activity description
+## Activity description
 
 We will briefly explore the dataset together and then begin to build / polish an expository visualization.

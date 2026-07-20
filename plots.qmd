@@ -4,9 +4,9 @@ output:
   html_document
 ---
 
-# **Instructions**
+## **Instructions**
 
-1. **[Join a group](https://docs.google.com/document/d/18ORHi60XOJoXgmm__iU8v9qLyeDKLxgWaARCI-3r2LY/edit?tab=t.0)**. 
+1. **[Join a group](https://docs.google.com/document/d/18ORHi60XOJoXgmm__iU8v9qLyeDKLxgWaARCI-3r2LY/edit?tab=t.0)**.
 
   * Makes groups of 2-3 people
   * Join a breakout room with your group.
@@ -18,13 +18,13 @@ output:
 ottrpal::include_slide("https://docs.google.com/presentation/d/1wSy8jDOnuETR5Y9jbK6m5eNbQsxSWnyYio-wPs-m3YE/edit?slide=id.g3f3247a3397_1_3660#slide=id.g3f3247a3397_1_3660")
 ```
 
-4. **[Add answers to this slide deck](https://docs.google.com/presentation/d/1B1LfZNsYfcaxridjDgsvhImJguXOe0otaVVcqVlcMiY/edit?slide=id.g3f43c8b46df_0_0#slide=id.g3f43c8b46df_0_0)**
+4. **[Add answers to this slide deck](https://docs.google.com/presentation/d/1B1LfZNsYfcaxridjDgsvhImJguXOe0otaVVcqVlcMiY/edit?slide=id.g3f43c8b46df_0_0#slide=id.g3f43c8b46df_0_0){.external}**
 
   * Navigate to your group's slide and edit that slide
   * Add additional slides as needed
 
 
-## **Plot types to choose from**
+### **Plot types to choose from**
 
 1. Violin plot
 1. Boxplot
@@ -70,4 +70,3 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1wSy8jDOnuETR5Y9j
 1. Tornado Diagram
 1. Tree Diagram and Dendrogram
 1. Treemap
-

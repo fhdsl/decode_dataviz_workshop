@@ -4,20 +4,20 @@ output:
   html_document
 ---
 
-# Slides
+## Slides
 
 Slides for workshop: [https://docs.google.com/presentation/d/1wSy8jDOnuETR5Y9jbK6m5eNbQsxSWnyYio-wPs-m3YE/edit?usp=sharing](https://docs.google.com/presentation/d/1wSy8jDOnuETR5Y9jbK6m5eNbQsxSWnyYio-wPs-m3YE/edit?usp=sharing)
 
-* Background and Fundamentals: Starts slide [`16`](https://docs.google.com/presentation/d/1wSy8jDOnuETR5Y9jbK6m5eNbQsxSWnyYio-wPs-m3YE/edit?slide=id.g3f3198582b6_0_0#slide=id.g3f3198582b6_0_0)
-* Exploring Plot Types: Starts slide [`70`](https://docs.google.com/presentation/d/1wSy8jDOnuETR5Y9jbK6m5eNbQsxSWnyYio-wPs-m3YE/edit?slide=id.g3f3198582b6_0_35#slide=id.g3f3198582b6_0_35)
+* Background and Fundamentals: Starts slide [`16`](https://docs.google.com/presentation/d/1wSy8jDOnuETR5Y9jbK6m5eNbQsxSWnyYio-wPs-m3YE/edit?slide=id.g3f3198582b6_0_0#slide=id.g3f3198582b6_0_0){.external}
+* Exploring Plot Types: Starts slide [`70`](https://docs.google.com/presentation/d/1wSy8jDOnuETR5Y9jbK6m5eNbQsxSWnyYio-wPs-m3YE/edit?slide=id.g3f3198582b6_0_35#slide=id.g3f3198582b6_0_35){.external}
 * Best Practices for Ethical and Accessible Data Visualizations:
-    * Ethical Visualization Best Practices: Starts slide [`82`](https://docs.google.com/presentation/d/1wSy8jDOnuETR5Y9jbK6m5eNbQsxSWnyYio-wPs-m3YE/edit?slide=id.g3f3198582b6_0_50#slide=id.g3f3198582b6_0_50)
-    * Accessible Visualization Best Practices: Starts slide [`106`](https://docs.google.com/presentation/d/1wSy8jDOnuETR5Y9jbK6m5eNbQsxSWnyYio-wPs-m3YE/edit?slide=id.g3f3198582b6_0_45#slide=id.g3f3198582b6_0_45)
-* Discussion: Common Data Visualization Challenges: Starts slide [`150`](https://docs.google.com/presentation/d/1wSy8jDOnuETR5Y9jbK6m5eNbQsxSWnyYio-wPs-m3YE/edit?slide=id.g3f3198582b6_0_65#slide=id.g3f3198582b6_0_65)
-* Activity: Building an Expository Graph: Starts slide [`176`](https://docs.google.com/presentation/d/1wSy8jDOnuETR5Y9jbK6m5eNbQsxSWnyYio-wPs-m3YE/edit?slide=id.g3f3198582b6_0_70#slide=id.g3f3198582b6_0_70)
+    * Ethical Visualization Best Practices: Starts slide [`82`](https://docs.google.com/presentation/d/1wSy8jDOnuETR5Y9jbK6m5eNbQsxSWnyYio-wPs-m3YE/edit?slide=id.g3f3198582b6_0_50#slide=id.g3f3198582b6_0_50){.external}
+    * Accessible Visualization Best Practices: Starts slide [`106`](https://docs.google.com/presentation/d/1wSy8jDOnuETR5Y9jbK6m5eNbQsxSWnyYio-wPs-m3YE/edit?slide=id.g3f3198582b6_0_45#slide=id.g3f3198582b6_0_45){.external}
+* Discussion: Common Data Visualization Challenges: Starts slide [`150`](https://docs.google.com/presentation/d/1wSy8jDOnuETR5Y9jbK6m5eNbQsxSWnyYio-wPs-m3YE/edit?slide=id.g3f3198582b6_0_65#slide=id.g3f3198582b6_0_65){.external}
+* Activity: Building an Expository Graph: Starts slide [`176`](https://docs.google.com/presentation/d/1wSy8jDOnuETR5Y9jbK6m5eNbQsxSWnyYio-wPs-m3YE/edit?slide=id.g3f3198582b6_0_70#slide=id.g3f3198582b6_0_70){.external}
 
 
-# Pre-requisites and needs
+## Pre-requisites and needs
 
 Throughout the workshop, participants will want to have **access to a web browser** to interact with polls / survey questions on [slido.com](https://www.slido.com/).
 
@@ -26,7 +26,7 @@ For the Exploring Plot Types section, participants will want to have access to a
 For the Building an Expository Graph section, participants will want to have **downloaded the data** and have **access to R and RStudio** (or an equivalent integrated development environment for R).
 
 
-# Other Resources
+## Other Resources
 
 * ITN Considerations for Data Visualization Course: [https://hutchdatascience.org/DataViz_Considerations/](https://hutchdatascience.org/DataViz_Considerations/)
 * Tidyverse Skills for Data Science Course: [Visualizing Data in the Tidyverse chapter](https://jhudatascience.org/tidyversecourse/dataviz.html#about-this-course-3)

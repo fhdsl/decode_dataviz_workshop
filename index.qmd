@@ -32,9 +32,9 @@ We will
 
 ### **Slides**
 
-[Access to Slides for Workshop](https://docs.google.com/presentation/d/1wSy8jDOnuETR5Y9jbK6m5eNbQsxSWnyYio-wPs-m3YE/edit?usp=sharing)
+[Access to Slides for Workshop](https://docs.google.com/presentation/d/1wSy8jDOnuETR5Y9jbK6m5eNbQsxSWnyYio-wPs-m3YE/edit?usp=sharing){.external}
 
-### **Pre-requisites and need**
+### **Pre-requisites and needs**
 
 Throughout the workshop, participants will want to have **access to a web browser** to interact with polls / survey questions on [slido.com](https://www.slido.com/).
 
