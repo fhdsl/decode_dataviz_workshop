@@ -1,6 +1,16 @@
+---
+title: "**Exploring plot types**"
+output:
+  html_document
+---
+
 # **Instructions**
 
-1. **[Join a group](https://docs.google.com/document/d/18ORHi60XOJoXgmm__iU8v9qLyeDKLxgWaARCI-3r2LY/edit?tab=t.0)**. Makes groups of 2-3 people and join a breakout room.  
+1. **[Join a group](https://docs.google.com/document/d/18ORHi60XOJoXgmm__iU8v9qLyeDKLxgWaARCI-3r2LY/edit?tab=t.0)**. 
+
+  * Makes groups of 2-3 people
+  * Join a breakout room with your group.
+
 2. **[Pick at least one plot from this list (also listed below)](https://docs.google.com/document/d/1MbvXteORzWHWc4TI-YeGSmbe9qSP8J5G5Sy0uB0dfBo/edit?tab=t.0)**. Note there is a mixture of common plot types (Violin plot, boxplot, stacked bar chart, Heatmap) and field specific plots (e.g., Caterpillar plot, Waterfall plot, Quilt plot) listed.
 3. Research the plot type – answering specific questions listed on the template slide
 
@@ -8,7 +18,7 @@
 ottrpal::include_slide("https://docs.google.com/presentation/d/1wSy8jDOnuETR5Y9jbK6m5eNbQsxSWnyYio-wPs-m3YE/edit?slide=id.g3f3247a3397_1_3660#slide=id.g3f3247a3397_1_3660")
 ```
 
-4. [Add answers to this slide deck](https://docs.google.com/presentation/d/1B1LfZNsYfcaxridjDgsvhImJguXOe0otaVVcqVlcMiY/edit?slide=id.g3f43c8b46df_0_0#slide=id.g3f43c8b46df_0_0)
+4. **[Add answers to this slide deck](https://docs.google.com/presentation/d/1B1LfZNsYfcaxridjDgsvhImJguXOe0otaVVcqVlcMiY/edit?slide=id.g3f43c8b46df_0_0#slide=id.g3f43c8b46df_0_0)**
 
   * Navigate to your group's slide and edit that slide
   * Add additional slides as needed
