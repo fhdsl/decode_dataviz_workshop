@@ -1,12 +1,11 @@
 ---
-title: "**DeCoDE Institute Summer 2026: Data Visualization Essentials**"
 output:
   html_document
 ---
 
 ### **About**
 
-This workshop introduces key considerations for creating effective data visualizations, including how to choose appropriate plots and communicate insights clearly. Participants will learn core design principles, accessibility practices, and strategies to avoid misleading or distorted visuals. Through examples attendees will develop skills to evaluate and create clear, informative, and publication-ready figures.
+This workshop is part of the DeCoDE Summer Institute 2026 and introduces key considerations for creating effective data visualizations, including how to choose appropriate plots and communicate insights clearly. Participants will learn core design principles, accessibility practices, and strategies to avoid misleading or distorted visuals. Through examples attendees will develop skills to evaluate and create clear, informative, and publication-ready figures.
 
 #### **Outline**
 
