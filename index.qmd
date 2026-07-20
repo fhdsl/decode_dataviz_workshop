@@ -37,5 +37,5 @@ We will
 ### **Pre-requisites and needs**
 
 * **Access to a web browser**
-* **Downloaded the activity data**
+* **Download the activity data**
 * **Access to R and RStudio** (or an equivalent integrated development environment for R). See [this guide for installation instructions if needed](https://daseh.org/modules/Setup/Setup.html).
