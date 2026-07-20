@@ -10,14 +10,14 @@ Slides for workshop: [https://docs.google.com/presentation/d/1wSy8jDOnuETR5Y9jbK
 
 * Background and Fundamentals: Slides `12` - `64`
 * Exploring Plot Types: Slides `66` - `76`
-* Best Practices for Ethical and Accessible Data Visualizatoins: Slides `78` - `144`
+* Best Practices for Ethical and Accessible Data Visualizations: Slides `78` - `144`
 * Discussion: Common Data Visualization Challenges: Slides `146` - `171`
 * Activity: Building an Expository Graph: Slides `172` - `183`
 
 
 # Pre-requisites and needs
 
-Throughout the workshop, participants will want to have **access to a web browser** to interact with polls / survey questions on [slido.com](https://www.slido.com/). 
+Throughout the workshop, participants will want to have **access to a web browser** to interact with polls / survey questions on [slido.com](https://www.slido.com/).
 
 For the Exploring Plot Types section, participants will want to have access to a web browser to interact with the Google Docs and Google Slides deck. No Google account login required.
 
@@ -27,6 +27,7 @@ For the Building an Expository Graph section, participants will want to have **d
 # Other Resources
 
 * ITN Considerations for Data Visualization Course: [https://hutchdatascience.org/DataViz_Considerations/](https://hutchdatascience.org/DataViz_Considerations/)
+* Tidyverse Skills for Data Science Course: [Visualizing Data in the Tidyverse chapter](https://jhudatascience.org/tidyversecourse/dataviz.html#about-this-course-3)
 * NCI Data Visualization Basics: [https://datascience.cancer.gov/training/learn-data-science/visualize-data-basics](https://datascience.cancer.gov/training/learn-data-science/visualize-data-basics)
 * Exploratory vs Expository Graphs: [https://jtleek.com/ads2020/week-10.html#creating-expository-graphs](https://jtleek.com/ads2020/week-10.html#creating-expository-graphs)
 * [Data Visualization: A Practical Introduction by Kieran Healy](https://socviz.co/)

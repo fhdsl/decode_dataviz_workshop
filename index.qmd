@@ -8,7 +8,7 @@ output:
 
 This workshop introduces key considerations for creating effective data visualizations, including how to choose appropriate plots and communicate insights clearly. Participants will learn core design principles, accessibility practices, and strategies to avoid misleading or distorted visuals. Through examples attendees will develop skills to evaluate and create clear, informative, and publication-ready figures.
 
-#### **Outline** 
+#### **Outline**
 
 We will
 
@@ -19,7 +19,7 @@ We will
   * Types of Data and Research Questions
 * Discuss and Explore Plot types
   * Building Blocks for Data Visualization
-  * Useufl Visual Design Principles
+  * Useful Visual Design Principles
   * Exploring Common Plot Types
     *  Basic and field specific
     *  When is a specific plot type the most appropriate to use?
@@ -36,9 +36,8 @@ We will
 
 ### **Pre-requisites and need**
 
-Throughout the workshop, participants will want to have **access to a web browser** to interact with polls / survey questions on [slido.com](https://www.slido.com/). 
+Throughout the workshop, participants will want to have **access to a web browser** to interact with polls / survey questions on [slido.com](https://www.slido.com/).
 
 For the Exploring Plot Types section, participants will want to have access to a web browser to interact with the Google Docs and Google Slides deck. No Google account login required.
 
 For the Building an Expository Graph section, participants will want to have **downloaded the data** and have **access to R and RStudio** (or an equivalent integrated development environment for R).
-
