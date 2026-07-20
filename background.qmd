@@ -1,24 +1,37 @@
+---
+title: "**Resources**"
+output:
+  html_document
+---
+
 # Slides
 
 Slides for workshop: [https://docs.google.com/presentation/d/1wSy8jDOnuETR5Y9jbK6m5eNbQsxSWnyYio-wPs-m3YE/edit?usp=sharing](https://docs.google.com/presentation/d/1wSy8jDOnuETR5Y9jbK6m5eNbQsxSWnyYio-wPs-m3YE/edit?usp=sharing)
 
-* Background and Fundamentals: Slides `#` - `#`
-* Exploring Plot Types: Slides `#` - `#`
-* Best Practices for Ethical and Accessible Data Visualizatoins: Slides `#` - `#`
-* Discussion: Common Data Visualization Challenges: Slides `#` - `#`
-* Activity: Building an Expository Graph: Slides `#` - `#`
+* Background and Fundamentals: Slides `12` - `64`
+* Exploring Plot Types: Slides `66` - `76`
+* Best Practices for Ethical and Accessible Data Visualizatoins: Slides `78` - `144`
+* Discussion: Common Data Visualization Challenges: Slides `146` - `171`
+* Activity: Building an Expository Graph: Slides `172` - `183`
 
 
-# Pre-requisites (if any)
+# Pre-requisites and needs
 
-List any pre-requisites for activities
+Throughout the workshop, participants will want to have **access to a web browser** to interact with polls / survey questions on [slido.com](https://www.slido.com/). 
+
+For the Exploring Plot Types section, participants will want to have access to a web browser to interact with the google docs and google slide deck. No google account login required.
+
+For the Building an Expository Graph section, participants will want to have **downloaded the data** and have **access to R and RStudio** (or an equivalent integrated development environment for R).
+
 
 # Other Resources
 
 * ITN Considerations for Data Visualization Course: [https://hutchdatascience.org/DataViz_Considerations/](https://hutchdatascience.org/DataViz_Considerations/)
 * NCI Data Visualization Basics: [https://datascience.cancer.gov/training/learn-data-science/visualize-data-basics](https://datascience.cancer.gov/training/learn-data-science/visualize-data-basics)
 * Exploratory vs Expository Graphs: [https://jtleek.com/ads2020/week-10.html#creating-expository-graphs](https://jtleek.com/ads2020/week-10.html#creating-expository-graphs)
+* [Data Visualization: A Practical Introduction by Kieran Healy](https://socviz.co/)
+* The Visual Display of Quantitative Information by Edward R. Tufte (book)
 * [10 Simple Rules for Better Figures](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003833)
 * Gallery for common plots: [https://www.data-to-viz.com/#explore](https://www.data-to-viz.com/#explore)
-* Python Graph Gallery
-* R Graph Gallery
+* [Python Graph Gallery](https://python-graph-gallery.com/)
+* [R Graph Gallery](https://r-graph-gallery.com/)
