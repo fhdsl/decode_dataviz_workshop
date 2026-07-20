@@ -16,6 +16,7 @@ GitHub
 Healy
 HTTPS
 ITN
+JHU
 Kaplan
 Kieran
 lightblue
@@ -39,6 +40,7 @@ treaters
 Treemap
 Tufte
 UMAP
+Wilke
 www
 automations
 Bootstap

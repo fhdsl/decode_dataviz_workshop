@@ -8,11 +8,13 @@ output:
 
 Slides for workshop: [https://docs.google.com/presentation/d/1wSy8jDOnuETR5Y9jbK6m5eNbQsxSWnyYio-wPs-m3YE/edit?usp=sharing](https://docs.google.com/presentation/d/1wSy8jDOnuETR5Y9jbK6m5eNbQsxSWnyYio-wPs-m3YE/edit?usp=sharing)
 
-* Background and Fundamentals: Slides `12` - `64`
-* Exploring Plot Types: Slides `66` - `76`
-* Best Practices for Ethical and Accessible Data Visualizations: Slides `78` - `144`
-* Discussion: Common Data Visualization Challenges: Slides `146` - `171`
-* Activity: Building an Expository Graph: Slides `172` - `183`
+* Background and Fundamentals: Starts slide [`16`](https://docs.google.com/presentation/d/1wSy8jDOnuETR5Y9jbK6m5eNbQsxSWnyYio-wPs-m3YE/edit?slide=id.g3f3198582b6_0_0#slide=id.g3f3198582b6_0_0)
+* Exploring Plot Types: Starts slide [`70`](https://docs.google.com/presentation/d/1wSy8jDOnuETR5Y9jbK6m5eNbQsxSWnyYio-wPs-m3YE/edit?slide=id.g3f3198582b6_0_35#slide=id.g3f3198582b6_0_35)
+* Best Practices for Ethical and Accessible Data Visualizations:
+    * Ethical Visualization Best Practices: Starts slide [`82`](https://docs.google.com/presentation/d/1wSy8jDOnuETR5Y9jbK6m5eNbQsxSWnyYio-wPs-m3YE/edit?slide=id.g3f3198582b6_0_50#slide=id.g3f3198582b6_0_50)
+    * Accessible Visualization Best Practices: Starts slide [`106`](https://docs.google.com/presentation/d/1wSy8jDOnuETR5Y9jbK6m5eNbQsxSWnyYio-wPs-m3YE/edit?slide=id.g3f3198582b6_0_45#slide=id.g3f3198582b6_0_45)
+* Discussion: Common Data Visualization Challenges: Starts slide [`150`](https://docs.google.com/presentation/d/1wSy8jDOnuETR5Y9jbK6m5eNbQsxSWnyYio-wPs-m3YE/edit?slide=id.g3f3198582b6_0_65#slide=id.g3f3198582b6_0_65)
+* Activity: Building an Expository Graph: Starts slide [`176`](https://docs.google.com/presentation/d/1wSy8jDOnuETR5Y9jbK6m5eNbQsxSWnyYio-wPs-m3YE/edit?slide=id.g3f3198582b6_0_70#slide=id.g3f3198582b6_0_70)
 
 
 # Pre-requisites and needs
