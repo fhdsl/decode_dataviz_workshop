@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>DeCoDE Institute Summer 2026: Data Visualization Essentials – Data Visualization Essentials</title>
+<title>Building an Expository Graph Activity – Data Visualization Essentials</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,6 +19,41 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -91,7 +126,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> <i class="bi bi-fa-home" role="img">
+    <a class="nav-link" href="./index.html"> <i class="bi bi-fa-home" role="img">
 </i> 
 <span class="menu-text"><strong>DeCoDE Institute Summer 2026: Data Visualization Essentials</strong></span></a>
   </li>  
@@ -108,7 +143,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Discussing Common Challenges</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./activity.html"> 
+    <a class="nav-link active" href="./activity.html" aria-current="page"> 
 <span class="menu-text">Activity</span></a>
   </li>  
 </ul>
@@ -126,9 +161,14 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#about" id="toc-about" class="nav-link active" data-scroll-target="#about"><strong>About</strong></a></li>
-  <li><a href="#slides" id="toc-slides" class="nav-link" data-scroll-target="#slides"><strong>Slides</strong></a></li>
-  <li><a href="#pre-requisites-and-needs" id="toc-pre-requisites-and-needs" class="nav-link" data-scroll-target="#pre-requisites-and-needs"><strong>Pre-requisites and needs</strong></a></li>
+  <li><a href="#pre-requisites-and-needs" id="toc-pre-requisites-and-needs" class="nav-link active" data-scroll-target="#pre-requisites-and-needs">Pre-requisites and needs</a></li>
+  <li><a href="#data" id="toc-data" class="nav-link" data-scroll-target="#data">Data</a>
+  <ul class="collapse">
+  <li><a href="#wrangled-data-for-r" id="toc-wrangled-data-for-r" class="nav-link" data-scroll-target="#wrangled-data-for-r">Wrangled Data for R</a></li>
+  <li><a href="#full-dataset-not-wrangled" id="toc-full-dataset-not-wrangled" class="nav-link" data-scroll-target="#full-dataset-not-wrangled">Full Dataset (not wrangled)</a></li>
+  </ul></li>
+  <li><a href="#description-of-data" id="toc-description-of-data" class="nav-link" data-scroll-target="#description-of-data">Description of data</a></li>
+  <li><a href="#activity-description" id="toc-activity-description" class="nav-link" data-scroll-target="#activity-description">Activity description</a></li>
   </ul>
 </nav>
 </nav>
@@ -141,7 +181,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><strong>DeCoDE Institute Summer 2026: Data Visualization Essentials</strong></h1>
+<h1 class="title"><strong>Building an Expository Graph Activity</strong></h1>
 </div>
 
 
@@ -158,52 +198,84 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="about" class="level3">
-<h3 class="anchored" data-anchor-id="about"><strong>About</strong></h3>
-<p>This workshop introduces key considerations for creating effective data visualizations, including how to choose appropriate plots and communicate insights clearly. Participants will learn core design principles, accessibility practices, and strategies to avoid misleading or distorted visuals. Through examples attendees will develop skills to evaluate and create clear, informative, and publication-ready figures.</p>
-<section id="outline" class="level4">
-<h4 class="anchored" data-anchor-id="outline"><strong>Outline</strong></h4>
-<p>We will</p>
+<section id="pre-requisites-and-needs" class="level2">
+<h2 class="anchored" data-anchor-id="pre-requisites-and-needs">Pre-requisites and needs</h2>
+<p>Participants will want to have <strong>downloaded the data</strong> and have <strong>access to R and RStudio</strong> (or an equivalent integrated development environment for R).</p>
+</section>
+<section id="data" class="level2">
+<h2 class="anchored" data-anchor-id="data">Data</h2>
+<section id="wrangled-data-for-r" class="level3">
+<h3 class="anchored" data-anchor-id="wrangled-data-for-r">Wrangled Data for R</h3>
+<p>The wrangled data can be downloaded from here: <a href="https://github.com/fhdsl/decode_dataviz_workshop/blob/main/resources/activity_data/candy_wrangled_data_forR.csv">https://github.com/fhdsl/decode_dataviz_workshop/blob/main/resources/activity_data/candy_wrangled_data_forR.csv</a></p>
+<section id="loading-into-r" class="level4">
+<h4 class="anchored" data-anchor-id="loading-into-r">Loading into R</h4>
+<p>Example of how to load into R (assuming the file is in your <code>Downloads</code> folder):</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>candy_data <span class="ot">&lt;-</span> <span class="fu">read.csv</span>(<span class="st">"~/Downloads/candy_wrangled_data_forR.csv"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+</section>
+<section id="verifying-the-data" class="level4">
+<h4 class="anchored" data-anchor-id="verifying-the-data">Verifying the data</h4>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">colnames</span>(candy_data)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<blockquote class="blockquote">
+<p>[1] “column_name” “Not.Answered” “DESPAIR” “JOY” “MEH” “Chocolate”</p>
+</blockquote>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">dim</span>(candy_data)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<blockquote class="blockquote">
+<p>[1] 76 6</p>
+</blockquote>
+<p>This shows that the data has 76 rows (76 different candies) and 6 columns.</p>
+</section>
+</section>
+<section id="full-dataset-not-wrangled" class="level3">
+<h3 class="anchored" data-anchor-id="full-dataset-not-wrangled">Full Dataset (not wrangled)</h3>
+<p>The full dataset is available here: <a href="https://www.scq.ubc.ca/so-much-candy-data-seriously/">https://www.scq.ubc.ca/so-much-candy-data-seriously/</a> and can be <a href="https://www.scq.ubc.ca/wp-content/uploads/2017/10/candyhierarchy2017.csv">downloaded as a csv file</a>.</p>
+</section>
+</section>
+<section id="description-of-data" class="level2">
+<h2 class="anchored" data-anchor-id="description-of-data">Description of data</h2>
+<p>This data is from a 2017 survey for likely trick or treaters. Participants were asked demographic questions such as their gender, their age, and their place of residence. In addition, they were provided a list of different candy types and asked how they feel when they receive each of those candies.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="activity_files/figure-html//1wSy8jDOnuETR5Y9jbK6m5eNbQsxSWnyYio-wPs-m3YE_g3f463529a51_0_2812.png" class="img-fluid figure-img" width="480"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>The wrangled data has each candy in a separate row with columns such as the proportion of responses that reported Joy, the proportion of responses that reported despair, and whether that candy is chocolate or not is another column. (There may be a few other columns).</p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="activity_files/figure-html//1wSy8jDOnuETR5Y9jbK6m5eNbQsxSWnyYio-wPs-m3YE_g3f463529a51_0_2988.png" class="img-fluid figure-img" width="480"></p>
+</figure>
+</div>
+</div>
+</div>
+<details>
+<summary>
+Column names for R data
+</summary>
 <ul>
-<li>Discuss Background and Fundamentals
-<ul>
-<li>What is Data Visualization?</li>
-<li>Why is Data Visualization Important?</li>
-<li>What are Common Uses for Data Visualization?</li>
-<li>Types of Data and Research Questions</li>
-</ul></li>
-<li>Discuss and Explore Plot types
-<ul>
-<li>Building Blocks for Data Visualization</li>
-<li>Useful Visual Design Principles</li>
-<li>Exploring Common Plot Types
-<ul>
-<li>Basic and field specific</li>
-<li>When is a specific plot type the most appropriate to use?</li>
-<li>Description and example(s)</li>
-</ul></li>
-</ul></li>
-<li>Discuss Ethical and Accessible Data Visualization
-<ul>
-<li>Best Practices</li>
-<li>Improving Visualizations</li>
-</ul></li>
-<li>Discuss Common Challenges</li>
-<li>Build an Expository Graph (activity)</li>
+<li>“column_name”: The name of the candy</li>
+<li>“Not.Answered”: The proportion of respondents who didn’t answer the question for that candy (continuous numerical data bounded between 0 and 1)</li>
+<li>“DESPAIR”: The proportion of respondents who reported feelings of despair for that candy (continuous numerical data bounded between 0 and 1)</li>
+<li>“JOY”: The proportion of respondents who reported feelings of joy for that candy (continuous numerical data bounded between 0 and 1)</li>
+<li>“MEH”: The proportion of respondents who reported feelings of indifference for that candy (continuous numerical data bounded between 0 and 1)</li>
+<li>“Chocolate”: Whether or not that candy is chocolate (categorical “Yes” or “No”)</li>
 </ul>
+</details>
+<p>The wrangled datasets doesn’t include the gender, age, or residence information. You would have to use the larger source data to look at any of those variables.</p>
 </section>
-</section>
-<section id="slides" class="level3">
-<h3 class="anchored" data-anchor-id="slides"><strong>Slides</strong></h3>
-<p><a href="https://docs.google.com/presentation/d/1wSy8jDOnuETR5Y9jbK6m5eNbQsxSWnyYio-wPs-m3YE/edit?usp=sharing" class="external">Access to Slides for Workshop</a></p>
-</section>
-<section id="pre-requisites-and-needs" class="level3">
-<h3 class="anchored" data-anchor-id="pre-requisites-and-needs"><strong>Pre-requisites and needs</strong></h3>
-<ul>
-<li><strong>Access to a web browser</strong></li>
-<li><strong>Download the activity data</strong></li>
-<li><strong>Access to R and RStudio</strong> (or an equivalent integrated development environment for R). See <a href="https://daseh.org/modules/Setup/Setup.html">this guide for installation instructions if needed</a>.</li>
-</ul>
+<section id="activity-description" class="level2">
+<h2 class="anchored" data-anchor-id="activity-description">Activity description</h2>
+<p>We will briefly explore the dataset together and then begin to build / polish an expository visualization.</p>
 
 
 </section>

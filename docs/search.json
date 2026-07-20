@@ -1,128 +1,107 @@
 [
   {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "Contact Us",
+    "objectID": "activity.html",
+    "href": "activity.html",
+    "title": "Building an Expository Graph Activity",
     "section": "",
-    "text": "If you have questions please contact:\n\nCarrie Wright (cwrigh60@jhu.edu)"
+    "text": "Participants will want to have downloaded the data and have access to R and RStudio (or an equivalent integrated development environment for R)."
   },
   {
-    "objectID": "hosting.html",
-    "href": "hosting.html",
-    "title": "Hosting",
+    "objectID": "activity.html#pre-requisites-and-needs",
+    "href": "activity.html#pre-requisites-and-needs",
+    "title": "Building an Expository Graph Activity",
     "section": "",
-    "text": "To host your website on GitHub, you will need to go to settings and click on the pages tab.\nAgain to go to settings click on the far upper right corner:\n\n\n\n\n\n\n\n\n\nClick on Pages:\n\n\n\n\n\n\n\n\n\nSelect the main branch and the root directory and press save. Be sure to also check the “Enforce HTTPS” box. Afterwards your repository should look like this:\n\n\n\n\n\n\n\n\n\nNote that in general, your website will be published to a URL like this:\nhttps://username.github.io/repository_name/\nIf you have multiple websites published underneath your username or organization, this should still publish fine. This website will be a subdirectory that is named whatever you have named this repository.\nIf you’ve published this website underneath a GitHub organization (not your own personal GitHub profile), then in the above example URL the organization name will be where we’ve put username.\nFor more about GitHub pages (including how to personalize your URL) see the GitHub pages documentation here: https://pages.github.com/\nSometimes, GitHub page publishing will take a bit of time. You can click on the Actions tab in your repository and see if there is a pages and deployment action currently running (indicated by a yellow circle next to the action name). If this is the case, you will need to wait until this becomes a green check mark before your GitHub page will be published."
+    "text": "Participants will want to have downloaded the data and have access to R and RStudio (or an equivalent integrated development environment for R)."
   },
   {
-    "objectID": "hosting.html#hosting-setup",
-    "href": "hosting.html#hosting-setup",
-    "title": "Hosting",
+    "objectID": "activity.html#data",
+    "href": "activity.html#data",
+    "title": "Building an Expository Graph Activity",
+    "section": "Data",
+    "text": "Data\n\nWrangled Data for R\nThe wrangled data can be downloaded from here: https://github.com/fhdsl/decode_dataviz_workshop/blob/main/resources/activity_data/candy_wrangled_data_forR.csv\n\nLoading into R\nExample of how to load into R (assuming the file is in your Downloads folder):\n\ncandy_data &lt;- read.csv(\"~/Downloads/candy_wrangled_data_forR.csv\")\n\n\n\nVerifying the data\n\ncolnames(candy_data)\n\n\n[1] “column_name” “Not.Answered” “DESPAIR” “JOY” “MEH” “Chocolate”\n\n\ndim(candy_data)\n\n\n[1] 76 6\n\nThis shows that the data has 76 rows (76 different candies) and 6 columns.\n\n\n\nFull Dataset (not wrangled)\nThe full dataset is available here: https://www.scq.ubc.ca/so-much-candy-data-seriously/ and can be downloaded as a csv file."
+  },
+  {
+    "objectID": "activity.html#description-of-data",
+    "href": "activity.html#description-of-data",
+    "title": "Building an Expository Graph Activity",
+    "section": "Description of data",
+    "text": "Description of data\nThis data is from a 2017 survey for likely trick or treaters. Participants were asked demographic questions such as their gender, their age, and their place of residence. In addition, they were provided a list of different candy types and asked how they feel when they receive each of those candies.\n\n\n\n\n\n\n\n\n\nThe wrangled data has each candy in a separate row with columns such as the proportion of responses that reported Joy, the proportion of responses that reported despair, and whether that candy is chocolate or not is another column. (There may be a few other columns).\n\n\n\n\n\n\n\n\n\n\n\nColumn names for R data\n\n\n“column_name”: The name of the candy\n“Not.Answered”: The proportion of respondents who didn’t answer the question for that candy (continuous numerical data bounded between 0 and 1)\n“DESPAIR”: The proportion of respondents who reported feelings of despair for that candy (continuous numerical data bounded between 0 and 1)\n“JOY”: The proportion of respondents who reported feelings of joy for that candy (continuous numerical data bounded between 0 and 1)\n“MEH”: The proportion of respondents who reported feelings of indifference for that candy (continuous numerical data bounded between 0 and 1)\n“Chocolate”: Whether or not that candy is chocolate (categorical “Yes” or “No”)\n\n\nThe wrangled datasets doesn’t include the gender, age, or residence information. You would have to use the larger source data to look at any of those variables."
+  },
+  {
+    "objectID": "activity.html#activity-description",
+    "href": "activity.html#activity-description",
+    "title": "Building an Expository Graph Activity",
+    "section": "Activity description",
+    "text": "Activity description\nWe will briefly explore the dataset together and then begin to build / polish an expository visualization."
+  },
+  {
+    "objectID": "background.html",
+    "href": "background.html",
+    "title": "Resources",
     "section": "",
-    "text": "To host your website on GitHub, you will need to go to settings and click on the pages tab.\nAgain to go to settings click on the far upper right corner:\n\n\n\n\n\n\n\n\n\nClick on Pages:\n\n\n\n\n\n\n\n\n\nSelect the main branch and the root directory and press save. Be sure to also check the “Enforce HTTPS” box. Afterwards your repository should look like this:\n\n\n\n\n\n\n\n\n\nNote that in general, your website will be published to a URL like this:\nhttps://username.github.io/repository_name/\nIf you have multiple websites published underneath your username or organization, this should still publish fine. This website will be a subdirectory that is named whatever you have named this repository.\nIf you’ve published this website underneath a GitHub organization (not your own personal GitHub profile), then in the above example URL the organization name will be where we’ve put username.\nFor more about GitHub pages (including how to personalize your URL) see the GitHub pages documentation here: https://pages.github.com/\nSometimes, GitHub page publishing will take a bit of time. You can click on the Actions tab in your repository and see if there is a pages and deployment action currently running (indicated by a yellow circle next to the action name). If this is the case, you will need to wait until this becomes a green check mark before your GitHub page will be published."
+    "text": "Slides for workshop: https://docs.google.com/presentation/d/1wSy8jDOnuETR5Y9jbK6m5eNbQsxSWnyYio-wPs-m3YE/edit?usp=sharing\n\nBackground and Fundamentals: Starts slide 16\nExploring Plot Types: Starts slide 70\nBest Practices for Ethical and Accessible Data Visualizations:\n\nEthical Visualization Best Practices: Starts slide 82\nAccessible Visualization Best Practices: Starts slide 106\n\nDiscussion: Common Data Visualization Challenges: Starts slide 150\nActivity: Building an Expository Graph: Starts slide 176"
   },
   {
-    "objectID": "setup.html",
-    "href": "setup.html",
-    "title": "Setup",
+    "objectID": "background.html#slides",
+    "href": "background.html#slides",
+    "title": "Resources",
     "section": "",
-    "text": "Getting started\nCreate your repository by clicking on the Use this Template button at OTTR_Template_Website repository\n\nYou’ll need to make your repository public.\n\n\nSet your GH_PAT\nTo enable the GitHub actions, your repository needs to be setup in a specific way.\nFor OTTR GitHub actions to run, they need to have credentials through a personal access token.\n\nSet up your own personal access token following these instructions - but create a classic token. Keep this personal access token handy for the next step. When you get to the permissions page, check the box that says repo and select all that is underneath that header. No other permissions are necessary.\n\n\n\nClick here for more detailed instructions. The instructions for this step may change with updates to GitHub.\n\nFirst, go to your username settings, by clicking on your user icon (upper right corner) and scrolling down to settings.\n\n\n\n\n\n\n\n\n\nNext, scroll all the way down on the far right menu to “Developer Settings”.\n\n\n\n\n\n\n\n\n\nThen select “Personal Access Tokens” and “Tokens (classic)”\n\n\n\n\n\n\n\n\n\nThen click “Generate new token” and confirm that you want classic.\n\n\n\n\n\n\n\n\n\nFinally, add a name select all the repo scopes and scroll down to the green button to generate the token. Copy this somewhere safe to then paste into your repository settings.\n\n\n\n\n\n\n\n\n\n\n\nIn your new OTTR_Template_Website derived repository, go to Settings &gt; Secrets and variables &gt; Actions. Click New Repository Secret.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIn the window opened, name this new secret GH_PAT and paste the personal access token in the box below. (Note that the name GH_PAT is specific to how OTTR works and other secret names cannot be used and for OTTR to still work).\nClick the green button to add the secret.\n\n\n\n\n\n\n\n\n\n\n\nAllow GitHub Actions\nGo to the settings menu for your repository that you created from the template. This should be located at the top of GitHub on the right side.\nScroll down to the “Actions” button and click it, then click “General”.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nScroll down to the workflow permissions section and select “Read and write permissions”, then click “Allow GitHub actions to create and approve pull requests.\nFinally, click “save”.\n\n\n\n\n\n\n\n\n\n\n\nProtect branches\nAlthough this isn’t entirely required, its strongly recommended that you use these settings to protect your main branches.\nClick on settings in the far upper right corner:\n\n\n\n\n\n\n\n\n\nClick on branches:\n\n\n\n\n\n\n\n\n\nClick the add rule button.\n\n\n\n\n\n\n\n\n\nType “main” as the branch name pattern:\n\n\n\n\n\n\n\n\n\nClick on the following boxes to require pull requests before merging:\n\n\n\n\n\n\n\n\n\nNote that if you have admin privileges on this repository, you will likely still be able to override these branch protections so use caution when git pushing!"
+    "text": "Slides for workshop: https://docs.google.com/presentation/d/1wSy8jDOnuETR5Y9jbK6m5eNbQsxSWnyYio-wPs-m3YE/edit?usp=sharing\n\nBackground and Fundamentals: Starts slide 16\nExploring Plot Types: Starts slide 70\nBest Practices for Ethical and Accessible Data Visualizations:\n\nEthical Visualization Best Practices: Starts slide 82\nAccessible Visualization Best Practices: Starts slide 106\n\nDiscussion: Common Data Visualization Challenges: Starts slide 150\nActivity: Building an Expository Graph: Starts slide 176"
   },
   {
-    "objectID": "editing.html",
-    "href": "editing.html",
-    "title": "Editing",
+    "objectID": "background.html#pre-requisites-and-needs",
+    "href": "background.html#pre-requisites-and-needs",
+    "title": "Resources",
+    "section": "Pre-requisites and needs",
+    "text": "Pre-requisites and needs\nThroughout the workshop, participants will want to have access to a web browser to interact with polls / survey questions on slido.com."
+  },
+  {
+    "objectID": "background.html#other-resources",
+    "href": "background.html#other-resources",
+    "title": "Resources",
+    "section": "Other Resources",
+    "text": "Other Resources\n\nITN Considerations for Data Visualization Course: https://hutchdatascience.org/DataViz_Considerations/\nTidyverse Skills for Data Science Course: Visualizing Data in the Tidyverse chapter\nNCI Data Visualization Basics: https://datascience.cancer.gov/training/learn-data-science/visualize-data-basics\nExploratory vs Expository Graphs: https://jtleek.com/ads2020/week-10.html#creating-expository-graphs\nData Visualization: A Practical Introduction by Kieran Healy\nThe Visual Display of Quantitative Information by Edward R. Tufte (book)\nFundamentals of Data Visualization: A Primer on Making Informative and Compelling Figures by Claus O. Wilke\n10 Simple Rules for Better Figures\nGallery for common plots: https://www.data-to-viz.com/#explore\nPython Graph Gallery\nR Graph Gallery\nGenomics Data Visualization Course Gallery from Dr. Fan’s JHU course: https://jef.works/genomic-data-visualization-2024/\nUrban Institute Do No Harm Guides\n\nAccessibility Guide\nEmpathy Guide"
+  },
+  {
+    "objectID": "discussion.html",
+    "href": "discussion.html",
+    "title": "Common Challenges for Data Visualization Discussion",
     "section": "",
-    "text": "Now that your website is alive and hosted, how do you start customizing it to have your content?\nIf you already know how to file pull requests, feel free to start making edits as you see fit using some of the structure points we’ve noted below.\nIf you are not familiar with pull requests, read this guide to get started."
+    "text": "What are some challenges you face when either planning or building data visualizations for your work?\n\nInteract with Slido"
   },
   {
-    "objectID": "editing.html#title",
-    "href": "editing.html#title",
-    "title": "Editing",
-    "section": "Title",
-    "text": "Title\nTo change the title of the website, modify the name line of the _site.yml file."
+    "objectID": "discussion.html#discussion-prompt",
+    "href": "discussion.html#discussion-prompt",
+    "title": "Common Challenges for Data Visualization Discussion",
+    "section": "",
+    "text": "What are some challenges you face when either planning or building data visualizations for your work?\n\nInteract with Slido"
   },
   {
-    "objectID": "editing.html#modifying-pages",
-    "href": "editing.html#modifying-pages",
-    "title": "Editing",
-    "section": "Modifying pages",
-    "text": "Modifying pages\nPages are specified in the navigation bar by the lines that say -text: and href: .\nThe -text: specifies what the navigation bar will say for that tab.\nThe href: specifies which rendered Rmd file to use for that tab, it needs to be the html version of this file.\nThe tabs are specified to be aligned to the left (as specified by the left on line 5).\nThe tabs will appear in the order listed.\nYou can also add icons to these tabs using font awesome as is shown for the contact page on line 18.\n\n\n\n\n\n\n\n\n\nOther icon options include Bootstap glyphicons or ion icons. Note that not all icons will work because they are not all set up with the packages that make rendering the website possible, so this may require some trial and error. Here is an example of how you would use all of these icon options to add more:\n\n\n\n\n\n\n\n\n\nThis would result in a navigation bar with these icons:"
+    "objectID": "discussion.html#some-examples-of-potential-challenges",
+    "href": "discussion.html#some-examples-of-potential-challenges",
+    "title": "Common Challenges for Data Visualization Discussion",
+    "section": "Some examples of potential challenges",
+    "text": "Some examples of potential challenges\n\nDeciding which plot works with my data for my needs\nDeciding which languages, platforms, tools, packages, or libraries to use to develop visualizations\nWhen working with a tool …\n\nWhat format does the data need to be in to work with that package or library?\nWhat if there’s a tool for making a complex plot, but I need to change an aesthetic?\n\nHow to add annotations?\n\nProgrammatic vs manual?\nLoss of reproducibility vs efficiency?\n\nCan I use arrows or boxes, etc. to highlight specific parts of a data visualization or do I need to let the data speak for itself?\nHow to make visualizations less complex"
+  },
+  {
+    "objectID": "plots.html",
+    "href": "plots.html",
+    "title": "Exploring plot types",
+    "section": "",
+    "text": "Join a group.\n\n\nMakes groups of 2-3 people\nJoin a breakout room with your group.\n\n\nPick at least one plot from this list (also listed below). Note there is a mixture of common plot types (Violin plot, boxplot, stacked bar chart, Heatmap) and field specific plots (e.g., Caterpillar plot, Waterfall plot, Quilt plot) listed.\nResearch the plot type – answering specific questions listed on the template slide\n\n\n\n\n\n\n\n\n\n\n\nAdd answers to this slide deck\n\n\nNavigate to your group’s slide and edit that slide\nAdd additional slides as needed\n\n\n\n\nViolin plot\nBoxplot\nRidgeline plot\nRaincloud plot\nStacked bar chart\nGrouped bar chart\nLollipop Chart\nDumbbell plot\nStrip plot\nSwarm plot\nHeatmap\nParallel plot\nQuilt Plot\nBubble Plot\nConfusion Matrix\nROC curve\nPrecision - Recall curve\nVenn Diagram\nUpset Plot\nSankey Diagram\nWaterfall plot\nForest plot\nCaterpillar plot\nKaplan-Meier Curve\nCumulative incidence curve\nVolcano Plot\nManhattan Plot\nRainfall Plot\nDot plot\nQQ plot\nRepeated Measures Plot\nSpider Plot\nSpaghetti Plot\nSwimmer Plot\nEnrichment Plot\nMA Diagram\nDimensionality Reduction plots (e.g., PCA, t-SNE, or UMAP)\nCircos Plot\nBiomedical Knowledge Graph\nSequence Logo Plot\nFootprint Plot\nTornado Diagram\nTree Diagram and Dendrogram\nTreemap"
+  },
+  {
+    "objectID": "plots.html#instructions",
+    "href": "plots.html#instructions",
+    "title": "Exploring plot types",
+    "section": "",
+    "text": "Join a group.\n\n\nMakes groups of 2-3 people\nJoin a breakout room with your group.\n\n\nPick at least one plot from this list (also listed below). Note there is a mixture of common plot types (Violin plot, boxplot, stacked bar chart, Heatmap) and field specific plots (e.g., Caterpillar plot, Waterfall plot, Quilt plot) listed.\nResearch the plot type – answering specific questions listed on the template slide\n\n\n\n\n\n\n\n\n\n\n\nAdd answers to this slide deck\n\n\nNavigate to your group’s slide and edit that slide\nAdd additional slides as needed\n\n\n\n\nViolin plot\nBoxplot\nRidgeline plot\nRaincloud plot\nStacked bar chart\nGrouped bar chart\nLollipop Chart\nDumbbell plot\nStrip plot\nSwarm plot\nHeatmap\nParallel plot\nQuilt Plot\nBubble Plot\nConfusion Matrix\nROC curve\nPrecision - Recall curve\nVenn Diagram\nUpset Plot\nSankey Diagram\nWaterfall plot\nForest plot\nCaterpillar plot\nKaplan-Meier Curve\nCumulative incidence curve\nVolcano Plot\nManhattan Plot\nRainfall Plot\nDot plot\nQQ plot\nRepeated Measures Plot\nSpider Plot\nSpaghetti Plot\nSwimmer Plot\nEnrichment Plot\nMA Diagram\nDimensionality Reduction plots (e.g., PCA, t-SNE, or UMAP)\nCircos Plot\nBiomedical Knowledge Graph\nSequence Logo Plot\nFootprint Plot\nTornado Diagram\nTree Diagram and Dendrogram\nTreemap"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Website Name",
+    "title": "DeCoDE Institute Summer 2026: Data Visualization Essentials",
     "section": "",
-    "text": "Banner text!\n\n\nAbout\nThis website was created with the OTTR_Quarto website template.\nThis enables simpler creation of websites that have automated checks for broken URLs and spelling errors, as well as automated rendering of all html files. No need to worry about git conflicts for html files! See ottrproject.org for more docs and details.\nHere is how you can include images in your website pages (this one is saved in resources/images to keep things tidy:\n\n\n\n\n\n\n\n\n\nWe will go through the following:\n\nHow to set up your repository to enable the GitHub actions of the template. (Setup tab)\nHow to host your website using GitHub (Hosting tab)\nHow to modify your website structure (Structure tab)\nHow to change your website style (Style tab)\nMore information about GitHub Actions (Git Actions tab)\n\nClick on each tab to learn more."
-  },
-  {
-    "objectID": "git_actions.html",
-    "href": "git_actions.html",
-    "title": "Git Actions",
-    "section": "",
-    "text": "We have set up several checks for website content edits.\nWhen you create a pull request, you will see something like this if everything is successful. You can click on the preview of website here link to see a preview. Please note that some features may not be possible to see in the preview. For example, icons may only show up as a box."
-  },
-  {
-    "objectID": "git_actions.html#rendering-action",
-    "href": "git_actions.html#rendering-action",
-    "title": "Git Actions",
-    "section": "Rendering Action",
-    "text": "Rendering Action\nIf the rendering action fails, you will see something like this:\n\n\n\n\n\n\n\n\n\nIf you click on where it says Details on the far right, you will be taken to more information about what may have gone wrong.\n\n\n\n\n\n\n\n\n\nFor example, we can see that an R object was not found in one of the files. You could identify which file by scrolling up."
-  },
-  {
-    "objectID": "git_actions.html#spelling-and-style-action",
-    "href": "git_actions.html#spelling-and-style-action",
-    "title": "Git Actions",
-    "section": "Spelling and Style Action",
-    "text": "Spelling and Style Action\nYou may find that you have spelling errors if you get the following message from your pull request (PR):\n\n\n\n\n\n\n\n\n\nIf this happens, click the Download the errors here. link. This will take you to a table with words that the check thought were misspelled, as well as what file they occurred in and the lines in that file.\nAdd words that are not actually misspelled to the dictionary.txt file located in the resources directory. It’s a good idea to try to keep this in alphabetical order.\nFor words that are indeed misspelled, fix the errors and push your changes to your pull request.\nYou should then see that your pull request has a different message that tells you that you have no spelling errors."
-  },
-  {
-    "objectID": "git_actions.html#url-check",
-    "href": "git_actions.html#url-check",
-    "title": "Git Actions",
-    "section": "URL Check",
-    "text": "URL Check\nYou may find that you have broken URLs. If so, you will get this message when you create a Pull Request.\n\n\n\n\n\n\n\n\n\nYou can click on the Download the errors here link to see a document with a list of broken URLs and what files they are located in, like this:\n\n\n\n\n\n\n\n\n\nHere we can see that there are two URLs that are broken in the git_actions.Rmd file."
-  },
-  {
-    "objectID": "git_actions.html#completing-a-pull-request",
-    "href": "git_actions.html#completing-a-pull-request",
-    "title": "Git Actions",
-    "section": "Completing a Pull Request",
-    "text": "Completing a Pull Request\nOnce all the Git Action checks pass, you can merge your pull request to your main branch for your website.\n\n\n\n\n\n\n\n\n\nIf you are only working on this yourself without others to review your pull request, you can click the Merge without waiting for requirements to be met box, so that you can click the Merge pull request button."
-  },
-  {
-    "objectID": "style.html",
-    "href": "style.html",
-    "title": "Style",
-    "section": "",
-    "text": "To change the part of the navigation bar that says “OTTR Quarto”, modify the title within the _quarto.yml file."
-  },
-  {
-    "objectID": "style.html#navigation-bar",
-    "href": "style.html#navigation-bar",
-    "title": "Style",
-    "section": "",
-    "text": "To change the part of the navigation bar that says “OTTR Quarto”, modify the title within the _quarto.yml file."
-  },
-  {
-    "objectID": "style.html#overall-theme",
-    "href": "style.html#overall-theme",
-    "title": "Style",
-    "section": "Overall theme",
-    "text": "Overall theme\nTo change the color scheme/fonts of the website modify the theme in the _site.yml file (see here for options):"
-  },
-  {
-    "objectID": "style.html#change-the-favicon",
-    "href": "style.html#change-the-favicon",
-    "title": "Style",
-    "section": "Change the favicon",
-    "text": "Change the favicon\nThe small image that shows up on the browser can also be changed.\nYou can make a small image to replace the existing one by going to https://favicon.io/favicon-converter/ and uploading an image that you would like.\nNext, simply replace the image called favicon.ico in the images directory within the resources directory with the image you just created and downloaded from the favicon converter website."
-  },
-  {
-    "objectID": "style.html#additional-changes",
-    "href": "style.html#additional-changes",
-    "title": "Style",
-    "section": "Additional changes",
-    "text": "Additional changes\nTo make additional changes to the style, you can modify the styles.css file with css code. This website has great information about css code.\nAs an example if you wanted to change the color of the blue line to green you could change where it says lightblue to lightgreen in the styles.css file. You can also use a hex color code like those that can be found at this website, such as #00FF9E to get a specific shade.\n\n\n\n\n\n\n\n\n\nNote that if you change the css file with a new element that is not already defined like body then you would need to do it as done with the banner element. This was then added to the index.Rmd file by using:\n&lt;div class = \"banner\"&gt;\nBanner text!  \n&lt;/div&gt;\nAlso checkout the Quarto docs for more customization of the pages."
+    "text": "About\nThis workshop introduces key considerations for creating effective data visualizations, including how to choose appropriate plots and communicate insights clearly. Participants will learn core design principles, accessibility practices, and strategies to avoid misleading or distorted visuals. Through examples attendees will develop skills to evaluate and create clear, informative, and publication-ready figures.\n\nOutline\nWe will\n\nDiscuss Background and Fundamentals\n\nWhat is Data Visualization?\nWhy is Data Visualization Important?\nWhat are Common Uses for Data Visualization?\nTypes of Data and Research Questions\n\nDiscuss and Explore Plot types\n\nBuilding Blocks for Data Visualization\nUseful Visual Design Principles\nExploring Common Plot Types\n\nBasic and field specific\nWhen is a specific plot type the most appropriate to use?\nDescription and example(s)\n\n\nDiscuss Ethical and Accessible Data Visualization\n\nBest Practices\nImproving Visualizations\n\nDiscuss Common Challenges\nBuild an Expository Graph (activity)\n\n\n\n\nSlides\nAccess to Slides for Workshop\n\n\nPre-requisites and needs\n\nAccess to a web browser\nDownload the activity data\nAccess to R and RStudio (or an equivalent integrated development environment for R). See this guide for installation instructions if needed."
   }
 ]
