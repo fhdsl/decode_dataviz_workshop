@@ -34,3 +34,11 @@ We will
 
 [Access to Slides for Workshop](https://docs.google.com/presentation/d/1wSy8jDOnuETR5Y9jbK6m5eNbQsxSWnyYio-wPs-m3YE/edit?usp=sharing)
 
+### **Pre-requisites and need**
+
+Throughout the workshop, participants will want to have **access to a web browser** to interact with polls / survey questions on [slido.com](https://www.slido.com/). 
+
+For the Exploring Plot Types section, participants will want to have access to a web browser to interact with the Google Docs and Google Slides deck. No Google account login required.
+
+For the Building an Expository Graph section, participants will want to have **downloaded the data** and have **access to R and RStudio** (or an equivalent integrated development environment for R).
+
